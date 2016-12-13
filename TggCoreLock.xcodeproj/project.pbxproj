@@ -27,6 +27,7 @@
 		81275F9F1E004E3B003E2135 /* CLLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81275F951E004E3B003E2135 /* CLLockView.m */; };
 		81275FA21E004E7F003E2135 /* AMAKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 81275FA11E004E7F003E2135 /* AMAKeyChain.m */; };
 		81275FA51E00536D003E2135 /* CoreArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 81275FA41E00536D003E2135 /* CoreArchive.m */; };
+		81275FA81E0054D6003E2135 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 81275FA71E0054D6003E2135 /* KeychainItemWrapper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,8 @@
 		81275FA11E004E7F003E2135 /* AMAKeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAKeyChain.m; sourceTree = "<group>"; };
 		81275FA31E00536D003E2135 /* CoreArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreArchive.h; sourceTree = "<group>"; };
 		81275FA41E00536D003E2135 /* CoreArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreArchive.m; sourceTree = "<group>"; };
+		81275FA61E0054D6003E2135 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		81275FA71E0054D6003E2135 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +142,8 @@
 				81275F7D1E004E3B003E2135 /* CoreLock */,
 				81275FA01E004E7F003E2135 /* AMAKeyChain.h */,
 				81275FA11E004E7F003E2135 /* AMAKeyChain.m */,
+				81275FA61E0054D6003E2135 /* KeychainItemWrapper.h */,
+				81275FA71E0054D6003E2135 /* KeychainItemWrapper.m */,
 				81275FA31E00536D003E2135 /* CoreArchive.h */,
 				81275FA41E00536D003E2135 /* CoreArchive.m */,
 				81275F4D1E004E23003E2135 /* AppDelegate.h */,
@@ -388,6 +393,7 @@
 				81275F9B1E004E3B003E2135 /* CLLockInfoView.m in Sources */,
 				81275F9E1E004E3B003E2135 /* CLLockMainView.m in Sources */,
 				81275F4F1E004E23003E2135 /* AppDelegate.m in Sources */,
+				81275FA81E0054D6003E2135 /* KeychainItemWrapper.m in Sources */,
 				81275F9F1E004E3B003E2135 /* CLLockView.m in Sources */,
 				81275F961E004E3B003E2135 /* CLLockVC.m in Sources */,
 				81275F9A1E004E3B003E2135 /* CLLockNavVC.m in Sources */,
