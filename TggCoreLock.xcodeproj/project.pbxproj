@@ -15,6 +15,18 @@
 		81275F5A1E004E23003E2135 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81275F581E004E23003E2135 /* LaunchScreen.storyboard */; };
 		81275F651E004E24003E2135 /* TggCoreLockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81275F641E004E24003E2135 /* TggCoreLockTests.m */; };
 		81275F701E004E24003E2135 /* TggCoreLockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81275F6F1E004E24003E2135 /* TggCoreLockUITests.m */; };
+		81275F961E004E3B003E2135 /* CLLockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 81275F7F1E004E3B003E2135 /* CLLockVC.m */; };
+		81275F971E004E3B003E2135 /* CLLockVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81275F801E004E3B003E2135 /* CLLockVC.xib */; };
+		81275F981E004E3B003E2135 /* CALayer+Anim.m in Sources */ = {isa = PBXBuildFile; fileRef = 81275F841E004E3B003E2135 /* CALayer+Anim.m */; };
+		81275F991E004E3B003E2135 /* CoreLockConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 81275F871E004E3B003E2135 /* CoreLockConst.m */; };
+		81275F9A1E004E3B003E2135 /* CLLockNavVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 81275F8A1E004E3B003E2135 /* CLLockNavVC.m */; };
+		81275F9B1E004E3B003E2135 /* CLLockInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81275F8D1E004E3B003E2135 /* CLLockInfoView.m */; };
+		81275F9C1E004E3B003E2135 /* CLLockItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81275F8F1E004E3B003E2135 /* CLLockItemView.m */; };
+		81275F9D1E004E3B003E2135 /* CLLockLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 81275F911E004E3B003E2135 /* CLLockLabel.m */; };
+		81275F9E1E004E3B003E2135 /* CLLockMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81275F931E004E3B003E2135 /* CLLockMainView.m */; };
+		81275F9F1E004E3B003E2135 /* CLLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81275F951E004E3B003E2135 /* CLLockView.m */; };
+		81275FA21E004E7F003E2135 /* AMAKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 81275FA11E004E7F003E2135 /* AMAKeyChain.m */; };
+		81275FA51E00536D003E2135 /* CoreArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 81275FA41E00536D003E2135 /* CoreArchive.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,29 @@
 		81275F6B1E004E24003E2135 /* TggCoreLockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TggCoreLockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81275F6F1E004E24003E2135 /* TggCoreLockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TggCoreLockUITests.m; sourceTree = "<group>"; };
 		81275F711E004E24003E2135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81275F7E1E004E3B003E2135 /* CLLockVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLockVC.h; sourceTree = "<group>"; };
+		81275F7F1E004E3B003E2135 /* CLLockVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLockVC.m; sourceTree = "<group>"; };
+		81275F801E004E3B003E2135 /* CLLockVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLLockVC.xib; sourceTree = "<group>"; };
+		81275F831E004E3B003E2135 /* CALayer+Anim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Anim.h"; sourceTree = "<group>"; };
+		81275F841E004E3B003E2135 /* CALayer+Anim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Anim.m"; sourceTree = "<group>"; };
+		81275F861E004E3B003E2135 /* CoreLockConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreLockConst.h; sourceTree = "<group>"; };
+		81275F871E004E3B003E2135 /* CoreLockConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreLockConst.m; sourceTree = "<group>"; };
+		81275F891E004E3B003E2135 /* CLLockNavVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLockNavVC.h; sourceTree = "<group>"; };
+		81275F8A1E004E3B003E2135 /* CLLockNavVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLockNavVC.m; sourceTree = "<group>"; };
+		81275F8C1E004E3B003E2135 /* CLLockInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLockInfoView.h; sourceTree = "<group>"; };
+		81275F8D1E004E3B003E2135 /* CLLockInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLockInfoView.m; sourceTree = "<group>"; };
+		81275F8E1E004E3B003E2135 /* CLLockItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLockItemView.h; sourceTree = "<group>"; };
+		81275F8F1E004E3B003E2135 /* CLLockItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLockItemView.m; sourceTree = "<group>"; };
+		81275F901E004E3B003E2135 /* CLLockLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLockLabel.h; sourceTree = "<group>"; };
+		81275F911E004E3B003E2135 /* CLLockLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLockLabel.m; sourceTree = "<group>"; };
+		81275F921E004E3B003E2135 /* CLLockMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLockMainView.h; sourceTree = "<group>"; };
+		81275F931E004E3B003E2135 /* CLLockMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLockMainView.m; sourceTree = "<group>"; };
+		81275F941E004E3B003E2135 /* CLLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLockView.h; sourceTree = "<group>"; };
+		81275F951E004E3B003E2135 /* CLLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLockView.m; sourceTree = "<group>"; };
+		81275FA01E004E7F003E2135 /* AMAKeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAKeyChain.h; sourceTree = "<group>"; };
+		81275FA11E004E7F003E2135 /* AMAKeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAKeyChain.m; sourceTree = "<group>"; };
+		81275FA31E00536D003E2135 /* CoreArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreArchive.h; sourceTree = "<group>"; };
+		81275FA41E00536D003E2135 /* CoreArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreArchive.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +136,11 @@
 		81275F491E004E23003E2135 /* TggCoreLock */ = {
 			isa = PBXGroup;
 			children = (
+				81275F7D1E004E3B003E2135 /* CoreLock */,
+				81275FA01E004E7F003E2135 /* AMAKeyChain.h */,
+				81275FA11E004E7F003E2135 /* AMAKeyChain.m */,
+				81275FA31E00536D003E2135 /* CoreArchive.h */,
+				81275FA41E00536D003E2135 /* CoreArchive.m */,
 				81275F4D1E004E23003E2135 /* AppDelegate.h */,
 				81275F4E1E004E23003E2135 /* AppDelegate.m */,
 				81275F501E004E23003E2135 /* ViewController.h */,
@@ -138,6 +178,72 @@
 				81275F711E004E24003E2135 /* Info.plist */,
 			);
 			path = TggCoreLockUITests;
+			sourceTree = "<group>";
+		};
+		81275F7D1E004E3B003E2135 /* CoreLock */ = {
+			isa = PBXGroup;
+			children = (
+				81275F7E1E004E3B003E2135 /* CLLockVC.h */,
+				81275F7F1E004E3B003E2135 /* CLLockVC.m */,
+				81275F801E004E3B003E2135 /* CLLockVC.xib */,
+				81275F811E004E3B003E2135 /* Lib */,
+			);
+			path = CoreLock;
+			sourceTree = "<group>";
+		};
+		81275F811E004E3B003E2135 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				81275F821E004E3B003E2135 /* Category */,
+				81275F851E004E3B003E2135 /* Const */,
+				81275F881E004E3B003E2135 /* Controller */,
+				81275F8B1E004E3B003E2135 /* View */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		81275F821E004E3B003E2135 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				81275F831E004E3B003E2135 /* CALayer+Anim.h */,
+				81275F841E004E3B003E2135 /* CALayer+Anim.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		81275F851E004E3B003E2135 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				81275F861E004E3B003E2135 /* CoreLockConst.h */,
+				81275F871E004E3B003E2135 /* CoreLockConst.m */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		81275F881E004E3B003E2135 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				81275F891E004E3B003E2135 /* CLLockNavVC.h */,
+				81275F8A1E004E3B003E2135 /* CLLockNavVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		81275F8B1E004E3B003E2135 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				81275F8C1E004E3B003E2135 /* CLLockInfoView.h */,
+				81275F8D1E004E3B003E2135 /* CLLockInfoView.m */,
+				81275F8E1E004E3B003E2135 /* CLLockItemView.h */,
+				81275F8F1E004E3B003E2135 /* CLLockItemView.m */,
+				81275F901E004E3B003E2135 /* CLLockLabel.h */,
+				81275F911E004E3B003E2135 /* CLLockLabel.m */,
+				81275F921E004E3B003E2135 /* CLLockMainView.h */,
+				81275F931E004E3B003E2135 /* CLLockMainView.m */,
+				81275F941E004E3B003E2135 /* CLLockView.h */,
+				81275F951E004E3B003E2135 /* CLLockView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +354,7 @@
 			files = (
 				81275F5A1E004E23003E2135 /* LaunchScreen.storyboard in Resources */,
 				81275F571E004E23003E2135 /* Assets.xcassets in Resources */,
+				81275F971E004E3B003E2135 /* CLLockVC.xib in Resources */,
 				81275F551E004E23003E2135 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,8 +380,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81275F9D1E004E3B003E2135 /* CLLockLabel.m in Sources */,
+				81275FA51E00536D003E2135 /* CoreArchive.m in Sources */,
 				81275F521E004E23003E2135 /* ViewController.m in Sources */,
+				81275FA21E004E7F003E2135 /* AMAKeyChain.m in Sources */,
+				81275F991E004E3B003E2135 /* CoreLockConst.m in Sources */,
+				81275F9B1E004E3B003E2135 /* CLLockInfoView.m in Sources */,
+				81275F9E1E004E3B003E2135 /* CLLockMainView.m in Sources */,
 				81275F4F1E004E23003E2135 /* AppDelegate.m in Sources */,
+				81275F9F1E004E3B003E2135 /* CLLockView.m in Sources */,
+				81275F961E004E3B003E2135 /* CLLockVC.m in Sources */,
+				81275F9A1E004E3B003E2135 /* CLLockNavVC.m in Sources */,
+				81275F9C1E004E3B003E2135 /* CLLockItemView.m in Sources */,
+				81275F981E004E3B003E2135 /* CALayer+Anim.m in Sources */,
 				81275F4C1E004E23003E2135 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
